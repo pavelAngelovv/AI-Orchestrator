@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Flow from "./Flow";
 
 function App() {
   const [story, setStory] = useState("")
@@ -38,6 +39,7 @@ function App() {
         <h2>Answer:</h2>
         <p>{story}</p>
       </div>
+      <Flow />
     </div>
   );
 }
